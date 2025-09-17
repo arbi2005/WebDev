@@ -1,0 +1,11 @@
+{
+  "name": "simplewebsite",
+  "version": "1.0.0",
+  "description": "A simple static website",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"No tests specified\"",
+    "start": "http-server ."
+  }
+}
