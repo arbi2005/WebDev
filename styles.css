@@ -41,6 +41,15 @@ nav h1 {
   animation: slideIn 1s ease forwards;
 }
 
+nav h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav h1 a:hover {
+  color: #ff4081;
+}
+
 nav ul {
   list-style: none;
   display: flex;

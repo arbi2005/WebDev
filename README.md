@@ -11,33 +11,25 @@ A personal web development project showcasing skills, projects, and experience.
 
 ## Getting Started
 
-### Prerequisites
+You can run the site as plain static files.
 
-- Node.js (recommended LTS version)
-- npm or yarn
+### Option 1: Open directly
+- Open index.html in your browser.
 
-### Installation
-
+### Option 2: Serve locally (recommended)
 ```bash
-git clone https://github.com/HalajCV/WebDev.git
-cd WebDev
-npm install
+# Using Python 3
+python -m http.server 8080
+# Then open http://localhost:8080
 ```
-
-### Running Locally
-
-```bash
-npm start
-```
-
-The app will be available at `http://localhost:3000`.
 
 ## Folder Structure
 
-- `/src` - Main source code
-- `/public` - Static assets
+- index.html, about.html, services.html, contact.html
+- styles.css
+- WebDevLogo.jpg (favicon)
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
-    
+
